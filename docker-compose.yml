@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+      - HOST=0.0.0.0
+    volumes:
+      - .:/usr/src/app
+    command: bun run server/index.mjs
