@@ -13,10 +13,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   // Modules list
-  modules: [
-    '@nuxt/ui',
-    '@nuxt/eslint',
-  ],
+  modules: ['@nuxt/ui', '@nuxt/eslint', '@nuxthub/core'],
 
   // Module related configuration
   eslint: {
@@ -26,4 +23,8 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
+
+  hub: {
+    database: true,
+  },
 })

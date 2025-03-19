@@ -17,6 +17,7 @@
     "@iconify-json/lucide": "^1.2.27",
     "@iconify-json/simple-icons": "^1.2.26",
     "@nuxt/ui": "3.0.0",
+    "@nuxthub/core": "0.8.18",
     "nuxt": "^3.16.0"
   },
   "devDependencies": {
@@ -27,6 +28,7 @@
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
     "typescript": "^5.8.2",
-    "vue-tsc": "2.2.2"
+    "vue-tsc": "2.2.2",
+    "wrangler": "^4.2.0"
   }
 }
