@@ -22,6 +22,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^4.8.1",
     "@nuxt/eslint": "^1.1.0",
+    "@types/bun": "^1.2.5",
     "eslint": "^9.21.0",
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
