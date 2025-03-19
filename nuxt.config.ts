@@ -1,19 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  // Nuxt configuration
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2025-03-09',
+  typescript: {
+    typeCheck: true,
+  },
 
+  // Misc
+  css: ['~/assets/css/main.css'],
+
+  // Modules list
   modules: [
     '@nuxt/ui',
     '@nuxt/eslint',
   ],
-
-  css: ['~/assets/css/main.css'],
-
-  future: {
-    compatibilityVersion: 4,
-  },
-
-  compatibilityDate: '2025-03-09',
 
   // Module related configuration
   eslint: {
@@ -21,4 +24,6 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+
+  devtools: { enabled: true },
 })
