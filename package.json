@@ -26,6 +26,6 @@
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
     "typescript": "^5.8.2",
-    "vue-tsc": "2.2.2"
+    "vue-tsc": "2.2.8"
   }
 }
