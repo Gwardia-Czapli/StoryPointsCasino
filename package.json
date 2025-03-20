@@ -20,7 +20,8 @@
     "@nuxt/ui": "3.0.0",
     "@nuxthub/core": "0.8.18",
     "drizzle-orm": "^0.40.1",
-    "nuxt": "^3.16.0"
+    "nuxt": "^3.16.0",
+    "nuxt-auth-utils": "0.5.17"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.8.1",
