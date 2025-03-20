@@ -38,6 +38,14 @@ yarn dev
 bun run dev
 ```
 
+## Migrations
+
+Generate migrations using
+
+```bash
+bun run db:generate
+```
+
 ## Production
 
 Build the application for production:
