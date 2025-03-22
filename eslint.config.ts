@@ -12,7 +12,7 @@ export default withNuxt(
       'style/brace-style': ['warn', '1tbs'],
     },
     ignores: [
-      'openapi/api/openapi.json',
+      'server/database/migrations/meta/',
     ],
   }),
 )
