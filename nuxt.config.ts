@@ -32,4 +32,12 @@ export default defineNuxtConfig({
   hub: {
     database: true,
   },
+
+  // Components configuration
+  components: [
+    {
+      path: '~/components/',
+      pathPrefix: true,
+    },
+  ],
 })
