@@ -35,7 +35,7 @@ const { loggedIn } = useUserSession()
       </div>
       <div class="flex max-md:flex-col gap-15 justify-center items-center mt-15 ">
         <Card
-          class="m-5"
+          class="max-md:m-5"
           title="Contribute and earn!"
         >
           Earn story points by contributing to projects on GitHub.
@@ -45,7 +45,7 @@ const { loggedIn } = useUserSession()
           Start coding right now and gain the most valuable currency in the world.
         </Card>
         <Card
-          class="m-5"
+          class="max-md:m-5"
           title="Gamble and multiply!"
         >
           Use your story points to gamble in our casino by playing exciting games!
