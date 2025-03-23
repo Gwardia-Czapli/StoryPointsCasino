@@ -12,6 +12,13 @@ export default defineNuxtConfig({
   // Misc
   css: ['~/assets/css/main.css'],
 
+  components: [
+    {
+      path: '~/components/',
+      pathPrefix: true,
+    },
+  ],
+
   // Modules list
   modules: [
     '@nuxt/ui',
@@ -33,11 +40,4 @@ export default defineNuxtConfig({
     database: true,
   },
 
-  // Components configuration
-  components: [
-    {
-      path: '~/components/',
-      pathPrefix: true,
-    },
-  ],
 })
