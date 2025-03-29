@@ -1,10 +1,15 @@
 <script setup lang="ts">
 const { loggedIn } = useUserSession()
+const img = useImage()
+const backgroundImage = img('/img/casino-chips-bg.webp')
 </script>
 
 <template>
   <div class="relative h-screen">
-    <div class="absolute inset-0 md:bg-[url(/img/casino-chips-bg.webp)] md:before:bg-black/50 bg-cover bg-center before:absolute before:inset-0" />
+    <div
+      class="absolute inset-0 xl:[background-image:var(--bg-image)] xl:before:bg-black/50 bg-cover bg-center before:absolute before:inset-0"
+      :style="{ '--bg-image': `url('${backgroundImage}')` }"
+    />
     <div class="relative z-10 flex flex-col items-center justify-center">
       <div class="mt-30 text-center">
         <p class="text-5xl md:text-7xl font-bold">
@@ -33,9 +38,9 @@ const { loggedIn } = useUserSession()
           </NuxtLink>
         </div>
       </div>
-      <div class="flex max-md:flex-col gap-15 justify-center items-center mt-15 ">
+      <div class="flex max-xl:flex-col gap-15 justify-center items-center mt-15 ">
         <Card
-          class="max-md:m-5"
+          class="max-xl:m-5"
           title="Contribute and earn!"
         >
           Earn story points by contributing to projects on GitHub.
@@ -45,7 +50,7 @@ const { loggedIn } = useUserSession()
           Start coding right now and gain the most valuable currency in the world.
         </Card>
         <Card
-          class="max-md:m-5"
+          class="max-xl:m-5"
           title="Gamble and multiply!"
         >
           Use your story points to gamble in our casino by playing exciting games!

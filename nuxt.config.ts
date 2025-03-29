@@ -25,6 +25,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxthub/core',
     'nuxt-auth-utils',
+    '@nuxt/image',
   ],
 
   // Module related configuration
