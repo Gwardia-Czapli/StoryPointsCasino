@@ -17,7 +17,7 @@
   "dependencies": {
     "@iconify-json/lucide": "^1.2.27",
     "@iconify-json/simple-icons": "^1.2.26",
-    "@nuxt/ui": "3.0.2",
+    "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@4d138ad",
     "@nuxthub/core": "0.8.23",
     "drizzle-orm": "^0.41.0",
     "nuxt": "^3.16.0",
@@ -32,7 +32,7 @@
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
     "typescript": "^5.8.2",
-    "vue-tsc": "2.2.8",
+    "vue-tsc": "^3.0.0-alpha.2",
     "wrangler": "^4.2.0"
   }
 }
