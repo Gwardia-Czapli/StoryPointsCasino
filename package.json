@@ -36,17 +36,7 @@
     "vue-tsc": "2.2.2",
     "wrangler": "^4.6.0"
   },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "*"
-      ],
-      "allowAny": [
-        "*"
-      ]
-    },
-    "patchedDependencies": {
-      "@nuxt/image": "patches/@nuxt__image.patch"
-    }
+  "patchedDependencies": {
+    "@nuxt/image@1.10.0": "patches/@nuxt%2Fimage@1.10.0.patch"
   }
 }

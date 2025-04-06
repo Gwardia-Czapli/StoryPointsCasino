@@ -1,5 +1,5 @@
 diff --git a/dist/runtime/components/NuxtImg.vue b/dist/runtime/components/NuxtImg.vue
-index 4625e1ef0028dd2470ed832106cea08e9adcac38..11685bcb1ba8c6be6daab0deb943c22404d0c1c0 100644
+index 55b8e367a65028ce2c6554fbe32268c1bc190598..46b2196097d9c5e4bd594398f58e207eaa6cb5fb 100644
 --- a/dist/runtime/components/NuxtImg.vue
 +++ b/dist/runtime/components/NuxtImg.vue
 @@ -38,7 +38,7 @@ import { useNuxtApp } from '#app/nuxt'
