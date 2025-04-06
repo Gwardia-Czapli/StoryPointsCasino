@@ -12,12 +12,20 @@ export default defineNuxtConfig({
   // Misc
   css: ['~/assets/css/main.css'],
 
+  components: [
+    {
+      path: '~/components/',
+      pathPrefix: true,
+    },
+  ],
+
   // Modules list
   modules: [
     '@nuxt/ui',
     '@nuxt/eslint',
     '@nuxthub/core',
     'nuxt-auth-utils',
+    '@nuxt/image',
   ],
 
   // Module related configuration
@@ -32,4 +40,5 @@ export default defineNuxtConfig({
   hub: {
     database: true,
   },
+
 })

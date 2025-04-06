@@ -1,0 +1,13 @@
+diff --git a/dist/runtime/components/NuxtImg.vue b/dist/runtime/components/NuxtImg.vue
+index 55b8e367a65028ce2c6554fbe32268c1bc190598..46b2196097d9c5e4bd594398f58e207eaa6cb5fb 100644
+--- a/dist/runtime/components/NuxtImg.vue
++++ b/dist/runtime/components/NuxtImg.vue
+@@ -38,7 +38,7 @@ import { useNuxtApp } from '#app/nuxt'
+ 
+ const props = defineProps(imgProps)
+ 
+-const attrs = useAttrs()
++const attrs: any = useAttrs()
+ 
+ const emit = defineEmits<{
+   (event: 'load', payload: Event): unknown

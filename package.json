@@ -17,6 +17,7 @@
   "dependencies": {
     "@iconify-json/lucide": "^1.2.27",
     "@iconify-json/simple-icons": "^1.2.26",
+    "@nuxt/image": "^1.10.0",
     "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@4d138ad",
     "@nuxthub/core": "0.8.23",
     "drizzle-orm": "^0.41.0",
@@ -24,15 +25,18 @@
     "nuxt-auth-utils": "0.5.18"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.8.1",
-    "@nuxt/eslint": "^1.1.0",
-    "@types/bun": "^1.2.5",
-    "drizzle-kit": "^0.30.5",
-    "eslint": "^9.21.0",
+    "@antfu/eslint-config": "^4.11.0",
+    "@nuxt/eslint": "^1.2.0",
+    "@types/bun": "^1.2.8",
+    "drizzle-kit": "^0.30.6",
+    "eslint": "^9.23.0",
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
     "typescript": "^5.8.2",
     "vue-tsc": "^3.0.0-alpha.2",
     "wrangler": "^4.2.0"
+  },
+  "patchedDependencies": {
+    "@nuxt/image@1.10.0": "patches/@nuxt%2Fimage@1.10.0.patch"
   }
 }
