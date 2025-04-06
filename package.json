@@ -15,14 +15,14 @@
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.33",
-    "@iconify-json/simple-icons": "^1.2.29",
+    "@iconify-json/lucide": "^1.2.27",
+    "@iconify-json/simple-icons": "^1.2.26",
+    "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@4d138ad",
+    "@nuxthub/core": "0.8.23",
     "@nuxt/image": "^1.10.0",
-    "@nuxt/ui": "3.0.0",
-    "@nuxthub/core": "0.8.18",
-    "drizzle-orm": "^0.40.1",
-    "nuxt": "^3.16.1",
-    "nuxt-auth-utils": "0.5.17"
+    "drizzle-orm": "^0.41.0",
+    "nuxt": "^3.16.0",
+    "nuxt-auth-utils": "0.5.18"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.11.0",
@@ -34,7 +34,7 @@
     "husky": "^9.1.7",
     "typescript": "^5.8.2",
     "vue-tsc": "^3.0.0-alpha.2",
-    "wrangler": "^4.6.0"
+    "wrangler": "^4.2.0"
   },
   "patchedDependencies": {
     "@nuxt/image@1.10.0": "patches/@nuxt%2Fimage@1.10.0.patch"
