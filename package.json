@@ -17,9 +17,9 @@
   "dependencies": {
     "@iconify-json/lucide": "^1.2.27",
     "@iconify-json/simple-icons": "^1.2.26",
+    "@nuxt/image": "^1.10.0",
     "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@4d138ad",
     "@nuxthub/core": "0.8.23",
-    "@nuxt/image": "^1.10.0",
     "drizzle-orm": "^0.41.0",
     "nuxt": "^3.16.0",
     "nuxt-auth-utils": "0.5.18"
