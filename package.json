@@ -18,8 +18,8 @@
     "@iconify-json/lucide": "^1.2.27",
     "@iconify-json/simple-icons": "^1.2.26",
     "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@4d138ad",
-    "@nuxthub/core": "0.8.24",
-    "drizzle-orm": "^0.42.0",
+    "@nuxthub/core": "0.9.0",
+    "drizzle-orm": "^0.44.0",
     "nuxt": "^3.16.0",
     "nuxt-auth-utils": "0.5.20"
   },
