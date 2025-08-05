@@ -20,7 +20,7 @@
     "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@4d138ad",
     "@nuxthub/core": "0.8.24",
     "drizzle-orm": "^0.42.0",
-    "nuxt": "^3.16.0",
+    "nuxt": "^4.0.0",
     "nuxt-auth-utils": "0.5.20"
   },
   "devDependencies": {
